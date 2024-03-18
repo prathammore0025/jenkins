@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Create an EC2 instance
+
+MyEC2Instance: 
+    Type: AWS::EC2::Instance
+    Properties: 
+      ImageId: "ami-03c07bedab170b21a"
+      KeyName: "pruuuu...."
+      InstanceType: "t2.medium"
+      SecurityGroups: 
+        - "sg-03914e94ff13dfaf9"

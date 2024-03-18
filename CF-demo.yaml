@@ -1,7 +1,8 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Create an EC2 instance
 
-MyEC2Instance: 
+Resources:
+ MyEC2Instance: 
     Type: AWS::EC2::Instance
     Properties: 
       ImageId: "ami-03c07bedab170b21a"
